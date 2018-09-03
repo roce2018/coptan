@@ -1358,9 +1358,7 @@ client.on('message', msg => {
 
 
 
-  client.on('guildMemberAdd', member => {
-  member.addRole('name', "• New")
-});
+
 
 client.on('message', message => {
   let log = message.guild.channels.find('name', "log") 
